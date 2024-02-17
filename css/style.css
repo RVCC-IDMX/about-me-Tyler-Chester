@@ -1,0 +1,33 @@
+body {
+    font-family: Josefin Sans;
+    background-color: #3EB3A5;
+    color: #47291C;
+    font-size: 20pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lobster;
+    font-size: 25pt;
+}
+
+header {
+text-align: center;
+}
+
+#hero, footer {
+    text-align: center;
+    background-color: #42706C;
+    padding: 10px;
+    border: 2px black;
+}
+
+#hero img {
+    width: 275px;
+}
+
+#bio {
+    text-align: center;
+}
+footer{
+    font-size: 12pt;
+}
