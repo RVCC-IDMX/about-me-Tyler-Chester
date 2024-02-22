@@ -1,7 +1,7 @@
 body {
     font-family: Josefin Sans;
-    background-color: #3EB3A5;
-    color: #47291C;
+    background-color: #7CA4B6;
+    color: #F5B574;
     font-size: 20pt;
 }
 
@@ -14,10 +14,10 @@ h1, h2, h3, h4, h5, h6 {
 header {
 text-align: center;
 }
-
+/* Hero section */
 #hero, footer {
     text-align: center;
-    background-color: #42706C;
+    background-color:#668796;
     padding: 10px;
     border: 2px black;
 }
@@ -26,12 +26,28 @@ text-align: center;
     width: 275px;
 }
 
+/* Bio section */
+
 #bio {
     text-align: center;
 }
 footer{
     font-size: 12pt;
 }
+
+/* Hobbies section */
+
 #hobbies ul li {
+    text-align: center;
+}
+/* Gallery section */
+
+#gallery {
+    border: 10px solid #668796;
+}
+#gallery img {
+    max-width: 100%;
+}
+#gallery figure{
     text-align: center;
 }
