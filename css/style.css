@@ -40,10 +40,12 @@ footer{
 #hobbies ul li {
     text-align: center;
 }
+
 /* Gallery section */
 
 #gallery {
     border: 10px solid #668796;
+    margin-bottom: 2rem;
 }
 #gallery img {
     max-width: 100%;
@@ -51,3 +53,41 @@ footer{
 #gallery figure{
     text-align: center;
 }
+
+/* Literature */
+
+#lit {
+    border: 10px solid #668796;
+    margin-bottom: 2rem;
+}
+#lit div {
+    padding: 1rem;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+#lit div p {
+    padding-bottom: 10px;
+    padding-top: 0px;
+    clear: both;
+}
+
+/* Drop caps */
+
+#lit div p:first-child:first-letter{
+    color: #F5B574;
+    background-image: radial-gradient(white, #7CA4B6 );
+    float: left;
+    font-size: 60px;
+    padding: .3em;
+    padding-right: .6em;
+    line-height: .65;
+    margin-right: .25em;
+    border: 5px outset #668796;
+    font-family: Lobster;
+    text-shadow: 4px 4px 5px rgba(0,0,0,.5);
+    box-shadow: 8px 8px 8px rgba(0,0,0,.5);
+    border-top-left-radius: .4em;
+    border-bottom-right-radius: .4em;
+}
+
+
