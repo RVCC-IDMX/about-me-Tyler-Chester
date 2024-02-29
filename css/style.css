@@ -39,6 +39,10 @@ footer{
 
 #hobbies ul li {
     text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    line-height: 2.25rem;
 }
 
 /* Gallery section */
@@ -46,12 +50,26 @@ footer{
 #gallery {
     border: 10px solid #668796;
     margin-bottom: 2rem;
+    line-height: 2.25rem;
 }
 #gallery img {
     max-width: 100%;
 }
 #gallery figure{
     text-align: center;
+}
+
+figure{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+figcaption {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
 }
 
 /* Literature */
@@ -89,5 +107,34 @@ footer{
     border-top-left-radius: .4em;
     border-bottom-right-radius: .4em;
 }
+
+/*Allows CSS to work on tablets*/
+@media screen {
+    min-width: 60 em; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
