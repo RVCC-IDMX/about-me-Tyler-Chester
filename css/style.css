@@ -59,19 +59,6 @@ footer{
     text-align: center;
 }
 
-figure{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-
-figcaption {
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    font-size: 2rem;
-    margin-left: 1rem;
-}
-
 /* Literature */
 
 #lit {
@@ -80,7 +67,7 @@ figcaption {
 }
 #lit div {
     padding: 1rem;
-    max-width: 60rem;
+   
     margin: 0 auto;
 }
 #lit div p {
@@ -108,22 +95,47 @@ figcaption {
     border-bottom-right-radius: .4em;
 }
 
-/*Allows CSS to work on tablets*/
-@media screen {
-    min-width: 60 em; 
+/*Tablet size*/
+@media screen and (min-width: 60em) {
+
+    figure{
+    display: grid;
+    grid-template-columns: 2fr 1fr;        
+    }
+
+figcaption {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
 }
 
+#lit div {
+    max-width: 100%;
+    columns: 20em;
+}
+}
 
+/*Large screen size*/
+@media screen and (min-width: 100em){
+    #gallery{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
 
+   hr{
+    display:none;
+   }
 
+   #gallery h2 {
+    grid-column: 1/-1;
+   }
 
-
-
-
-
-
-
-
+   figure{
+    display:block;
+   }
+}
 
 
 
