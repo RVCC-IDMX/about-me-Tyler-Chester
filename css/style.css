@@ -100,7 +100,11 @@ footer{
     margin-bottom: 2rem;
     text-align: center;
 }
-
+/*Contact Form*/
+#formElements{
+    display:grid;
+    
+}
 /*Tablet size*/
 @media screen and (min-width: 60em) {
 
