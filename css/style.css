@@ -94,6 +94,12 @@ footer{
     border-top-left-radius: .4em;
     border-bottom-right-radius: .4em;
 }
+/*IFrame */
+#myVideo {
+    border: 10px solid #668796;
+    margin-bottom: 2rem;
+    text-align: center;
+}
 
 /*Tablet size*/
 @media screen and (min-width: 60em) {
@@ -116,7 +122,6 @@ figcaption {
     columns: 20em;
 }
 }
-
 /*Large screen size*/
 @media screen and (min-width: 100em){
     #gallery{
@@ -135,8 +140,32 @@ figcaption {
    figure{
     display:block;
    }
-}
 
+   .wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    height:500px;    
+    }
+
+    .videoWrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height:100%;
+    width:100%;  
+    }
+
+    .videoWrapper iframe{
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     right: 0px;
+     bottom: 0px;
+     height: 40%;
+     width: 100%;
+          
+    }
+}      
 
 
 
