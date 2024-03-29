@@ -100,11 +100,58 @@ footer{
     margin-bottom: 2rem;
     text-align: center;
 }
+
 /*Contact Form*/
+
 #formElements{
     display:grid;
-    
+    row-gap: .5em;
 }
+
+#contact{
+    padding: 1rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+fieldset{
+    border: 2px solid #668796;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 2rem;
+}
+
+legend{
+    background-color: #668796;
+    color: white;
+    padding:.4em;
+    border-radius: 2rem;
+}
+
+#contact input, #contact textarea, #contact select, #contact button{
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul{
+    list-style:none;
+    padding: 0px;
+}
+
+#contact li{
+    margin:1rem;
+}
+
+#contact button{
+    background-color: #668796;
+    color: white;
+    border: 1px solid #567280;
+    max-width:400px;
+    width:50%;
+    justify-self:center;
+    border-radius: 2rem;
+}
+
 /*Tablet size*/
 @media screen and (min-width: 60em) {
 
