@@ -74,3 +74,14 @@ outline:none;
 }
 
 /*Media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
+@media screen and (min-width:60rem){
+
+.navbar{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display:flex;
+}
+}
