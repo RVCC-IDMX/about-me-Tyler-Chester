@@ -15,3 +15,4 @@ _Secondary website color_: #668796
 _Text color_: #3d271e
 _Footer and Avatar text color_: #251711
 _Contact form submit_: White
+_Logo color_: #53BBC1
