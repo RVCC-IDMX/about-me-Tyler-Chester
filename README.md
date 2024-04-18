@@ -16,3 +16,6 @@ _Text color_: #3d271e
 _Footer and Avatar text color_: #251711
 _Contact form submit_: White
 _Logo color_: #53BBC1
+
+**Sources**
+_hamburger icon tutorial_: https://www.youtube.com/watch?v=dAIVbLrAb_U
