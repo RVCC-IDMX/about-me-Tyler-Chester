@@ -1,7 +1,7 @@
 body {
     font-family: Josefin Sans;
     background-color: #7CA4B6;
-    color: #F5B574;
+    color: #3d271e;
     font-size: 20pt;
 }
 
@@ -26,6 +26,9 @@ text-align: center;
     width: 275px;
 }
 
+#hero p, footer{
+    color: #251711;
+}
 /* Bio section */
 
 #bio {
@@ -79,7 +82,7 @@ footer{
 /* Drop caps */
 
 #lit div p:first-child:first-letter{
-    color: #F5B574;
+    color: #3d271e;
     background-image: radial-gradient(white, #7CA4B6 );
     float: left;
     font-size: 60px;
