@@ -19,3 +19,6 @@ _Logo color_: #53BBC1
 
 **Sources**
 _hamburger icon tutorial_: https://www.youtube.com/watch?v=dAIVbLrAb_U
+_Blog Resources_:https://blog.hubspot.com/website/css-animation
+                 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations
+                 https://www.w3schools.com/css/css3_animations.asp
